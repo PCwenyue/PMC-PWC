@@ -1,0 +1,167 @@
+[2022-03-03 18:16:09] ==> Commandline Arguments
+[2022-03-03 18:16:09]   batch_size_train: 4
+[2022-03-03 18:16:09]   batch_size_val: 1
+[2022-03-03 18:16:09]   checkpoint: ./weights/PMC_PWC_edge.pt
+[2022-03-03 18:16:09]   checkpoint_max_to_keep: 20
+[2022-03-03 18:16:09]   checkpoint_mode: resume_from_pretraining
+[2022-03-03 18:16:09]   cuda: True
+[2022-03-03 18:16:09]   div_flow: 0.05
+[2022-03-03 18:16:09]   evaluation: True
+[2022-03-03 18:16:09]   log_path: None
+[2022-03-03 18:16:09]   lr_scheduler: MultiStepLR
+[2022-03-03 18:16:09]   lr_scheduler_gamma: 0.5
+[2022-03-03 18:16:09]   lr_scheduler_milestones: [1, 2, 3]
+[2022-03-03 18:16:09]   model: i_pmca_p
+[2022-03-03 18:16:09]   num_workers: 0
+[2022-03-03 18:16:09]   optimizer: AdamW
+[2022-03-03 18:16:09]   optimizer_amsgrad: False
+[2022-03-03 18:16:09]   optimizer_lr: 3e-05
+[2022-03-03 18:16:09]   optimizer_weight_decay: 0.0004
+[2022-03-03 18:16:09]   seed: 1
+[2022-03-03 18:16:09]   start_epoch: 1
+[2022-03-03 18:16:09]   tensorboard: False
+[2022-03-03 18:16:09]   tensorboard_log_step: 5
+[2022-03-03 18:16:09]   test: False
+[2022-03-03 18:16:09]   test_output_path: ./debug
+[2022-03-03 18:16:09]   test_save_occ: True
+[2022-03-03 18:16:09]   total_epochs: 1
+[2022-03-03 18:16:09]   training_augmentation_ColorJitter: [0.5, 0.5, 0.5, 0.5]
+[2022-03-03 18:16:09]   training_augmentation_RandomAffine: RandomAffineFlowOcc
+[2022-03-03 18:16:09]   training_augmentation_RandomGamma: [0.7, 1.5, True]
+[2022-03-03 18:16:09]   training_augmentation_crop: None
+[2022-03-03 18:16:09]   training_dataset: FlyingChairsOccTrain
+[2022-03-03 18:16:09]   training_dataset_root: /home/fengcheng970pro/Documents/dataset/FlyingChairsOcc/data
+[2022-03-03 18:16:09]   training_key: total_loss
+[2022-03-03 18:16:09]   training_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:16:09]   validation_dataset: SintelTrainingCombFull
+[2022-03-03 18:16:09]   validation_dataset_root: /path/MPI-Sintel-complete
+[2022-03-03 18:16:09]   validation_key: epe
+[2022-03-03 18:16:09]   validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:16:09] ==> Random Seeds
+[2022-03-03 18:16:09]   Python seed: 1
+[2022-03-03 18:16:09]   Numpy seed: 2
+[2022-03-03 18:16:09]   Torch CPU seed: 3
+[2022-03-03 18:16:09]   Torch CUDA seed: 4
+[2022-03-03 18:16:09] ==> Datasets
+[2022-03-03 18:16:44] ==> Commandline Arguments
+[2022-03-03 18:16:44]   batch_size_train: 4
+[2022-03-03 18:16:44]   batch_size_val: 1
+[2022-03-03 18:16:44]   checkpoint: ./weights/PMC_PWC_edge.pt
+[2022-03-03 18:16:44]   checkpoint_max_to_keep: 20
+[2022-03-03 18:16:44]   checkpoint_mode: resume_from_pretraining
+[2022-03-03 18:16:44]   cuda: True
+[2022-03-03 18:16:44]   div_flow: 0.05
+[2022-03-03 18:16:44]   evaluation: True
+[2022-03-03 18:16:44]   log_path: None
+[2022-03-03 18:16:44]   lr_scheduler: MultiStepLR
+[2022-03-03 18:16:44]   lr_scheduler_gamma: 0.5
+[2022-03-03 18:16:44]   lr_scheduler_milestones: [1, 2, 3]
+[2022-03-03 18:16:44]   model: i_pmca_p
+[2022-03-03 18:16:44]   num_workers: 0
+[2022-03-03 18:16:44]   optimizer: AdamW
+[2022-03-03 18:16:44]   optimizer_amsgrad: False
+[2022-03-03 18:16:44]   optimizer_lr: 3e-05
+[2022-03-03 18:16:44]   optimizer_weight_decay: 0.0004
+[2022-03-03 18:16:44]   seed: 1
+[2022-03-03 18:16:44]   start_epoch: 1
+[2022-03-03 18:16:44]   tensorboard: False
+[2022-03-03 18:16:44]   tensorboard_log_step: 5
+[2022-03-03 18:16:44]   test: False
+[2022-03-03 18:16:44]   test_output_path: ./debug
+[2022-03-03 18:16:44]   test_save_occ: True
+[2022-03-03 18:16:44]   total_epochs: 1
+[2022-03-03 18:16:44]   training_augmentation_ColorJitter: [0.5, 0.5, 0.5, 0.5]
+[2022-03-03 18:16:44]   training_augmentation_RandomAffine: RandomAffineFlowOcc
+[2022-03-03 18:16:44]   training_augmentation_RandomGamma: [0.7, 1.5, True]
+[2022-03-03 18:16:44]   training_augmentation_crop: None
+[2022-03-03 18:16:44]   training_dataset: FlyingChairsOccTrain
+[2022-03-03 18:16:44]   training_dataset_root: /home/fengcheng970pro/Documents/dataset/FlyingChairsOcc/data
+[2022-03-03 18:16:44]   training_key: total_loss
+[2022-03-03 18:16:44]   training_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:16:44]   validation_dataset: SintelTrainingCombFull
+[2022-03-03 18:16:44]   validation_dataset_root: /home/fengcheng970pro/Documents/dataset/MPI-Sintel-complete
+[2022-03-03 18:16:44]   validation_key: epe
+[2022-03-03 18:16:44]   validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:16:44] ==> Random Seeds
+[2022-03-03 18:16:44]   Python seed: 1
+[2022-03-03 18:16:44]   Numpy seed: 2
+[2022-03-03 18:16:44]   Torch CPU seed: 3
+[2022-03-03 18:16:44]   Torch CUDA seed: 4
+[2022-03-03 18:16:44] ==> Datasets
+[2022-03-03 18:16:44]   Validation Dataset: SintelTrainingCombFull
+[2022-03-03 18:16:44]     basedir: training/clean/alley_1
+[2022-03-03 18:16:44]     input1: [3, 436, 1024]
+[2022-03-03 18:16:44]     input2: [3, 436, 1024]
+[2022-03-03 18:16:44]     target1: [2, 436, 1024]
+[2022-03-03 18:16:44]     target_occ1: [1, 436, 1024]
+[2022-03-03 18:16:44]     num_examples: 2082
+[2022-03-03 18:16:44] ==> Model
+[2022-03-03 18:16:44]   i_pmca_p
+[2022-03-03 18:16:47]   parameters: 7860333
+[2022-03-03 18:16:47]   Loaded ckpt from ./weights/PMC_PWC_edge.pt
+[2022-03-03 18:16:47] ==> Cudnn
+[2022-03-03 18:16:47]   torch.backends.cudnn.benchmark: False
+[2022-03-03 18:16:47] ==> Evaluation
+[2022-03-03 18:16:47]   start_epoch: 1
+[2022-03-03 18:16:47]   total_epochs: 1
+[2022-03-03 18:18:57] ==> Commandline Arguments
+[2022-03-03 18:18:57]   batch_size_train: 4
+[2022-03-03 18:18:57]   batch_size_val: 1
+[2022-03-03 18:18:57]   checkpoint: ./weights/PMC_PWC_edge.pt
+[2022-03-03 18:18:57]   checkpoint_max_to_keep: 20
+[2022-03-03 18:18:57]   checkpoint_mode: resume_from_pretraining
+[2022-03-03 18:18:57]   cuda: True
+[2022-03-03 18:18:57]   div_flow: 0.05
+[2022-03-03 18:18:57]   evaluation: True
+[2022-03-03 18:18:57]   log_path: None
+[2022-03-03 18:18:57]   lr_scheduler: MultiStepLR
+[2022-03-03 18:18:57]   lr_scheduler_gamma: 0.5
+[2022-03-03 18:18:57]   lr_scheduler_milestones: [1, 2, 3]
+[2022-03-03 18:18:57]   model: i_pmca_p
+[2022-03-03 18:18:57]   num_workers: 0
+[2022-03-03 18:18:57]   optimizer: AdamW
+[2022-03-03 18:18:57]   optimizer_amsgrad: False
+[2022-03-03 18:18:57]   optimizer_lr: 3e-05
+[2022-03-03 18:18:57]   optimizer_weight_decay: 0.0004
+[2022-03-03 18:18:57]   seed: 1
+[2022-03-03 18:18:57]   start_epoch: 1
+[2022-03-03 18:18:57]   tensorboard: False
+[2022-03-03 18:18:57]   tensorboard_log_step: 5
+[2022-03-03 18:18:57]   test: False
+[2022-03-03 18:18:57]   test_output_path: ./debug
+[2022-03-03 18:18:57]   test_save_occ: True
+[2022-03-03 18:18:57]   total_epochs: 1
+[2022-03-03 18:18:57]   training_augmentation_ColorJitter: [0.5, 0.5, 0.5, 0.5]
+[2022-03-03 18:18:57]   training_augmentation_RandomAffine: RandomAffineFlowOcc
+[2022-03-03 18:18:57]   training_augmentation_RandomGamma: [0.7, 1.5, True]
+[2022-03-03 18:18:57]   training_augmentation_crop: None
+[2022-03-03 18:18:57]   training_dataset: FlyingChairsOccTrain
+[2022-03-03 18:18:57]   training_dataset_root: /home/fengcheng970pro/Documents/dataset/FlyingChairsOcc/data
+[2022-03-03 18:18:57]   training_key: total_loss
+[2022-03-03 18:18:57]   training_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:18:57]   validation_dataset: SintelTrainingCombFull
+[2022-03-03 18:18:57]   validation_dataset_root: /home/fengcheng970pro/Documents/dataset/MPI-Sintel-complete
+[2022-03-03 18:18:57]   validation_key: epe
+[2022-03-03 18:18:57]   validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample
+[2022-03-03 18:18:57] ==> Random Seeds
+[2022-03-03 18:18:57]   Python seed: 1
+[2022-03-03 18:18:57]   Numpy seed: 2
+[2022-03-03 18:18:57]   Torch CPU seed: 3
+[2022-03-03 18:18:57]   Torch CUDA seed: 4
+[2022-03-03 18:18:57] ==> Datasets
+[2022-03-03 18:18:57]   Validation Dataset: SintelTrainingCombFull
+[2022-03-03 18:18:57]     basedir: training/clean/alley_1
+[2022-03-03 18:18:57]     input1: [3, 436, 1024]
+[2022-03-03 18:18:57]     input2: [3, 436, 1024]
+[2022-03-03 18:18:57]     target1: [2, 436, 1024]
+[2022-03-03 18:18:57]     target_occ1: [1, 436, 1024]
+[2022-03-03 18:18:57]     num_examples: 2082
+[2022-03-03 18:18:57] ==> Model
+[2022-03-03 18:18:57]   i_pmca_p
+[2022-03-03 18:19:00]   parameters: 7860333
+[2022-03-03 18:19:00]   Loaded ckpt from ./weights/PMC_PWC_edge.pt
+[2022-03-03 18:19:00] ==> Cudnn
+[2022-03-03 18:19:00]   torch.backends.cudnn.benchmark: False
+[2022-03-03 18:19:00] ==> Evaluation
+[2022-03-03 18:19:00]   start_epoch: 1
+[2022-03-03 18:19:00]   total_epochs: 1

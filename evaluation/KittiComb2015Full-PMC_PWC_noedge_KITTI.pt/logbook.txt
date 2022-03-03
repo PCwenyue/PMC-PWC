@@ -1,0 +1,45 @@
+[2022-03-03 18:25:52] ==> Commandline Arguments
+[2022-03-03 18:25:52]   batch_size_train: 4
+[2022-03-03 18:25:52]   batch_size_val: 1
+[2022-03-03 18:25:52]   checkpoint: ./weights/PMC_PWC_noedge_KITTI.pt
+[2022-03-03 18:25:52]   checkpoint_max_to_keep: 20
+[2022-03-03 18:25:52]   checkpoint_mode: resume_from_pretraining
+[2022-03-03 18:25:52]   cuda: True
+[2022-03-03 18:25:52]   div_flow: 0.05
+[2022-03-03 18:25:52]   evaluation: True
+[2022-03-03 18:25:52]   log_path: None
+[2022-03-03 18:25:52]   lr_scheduler: MultiStepLR
+[2022-03-03 18:25:52]   lr_scheduler_gamma: 0.5
+[2022-03-03 18:25:52]   lr_scheduler_milestones: [1, 2, 3]
+[2022-03-03 18:25:52]   model: i_pmca_p
+[2022-03-03 18:25:52]   num_workers: 0
+[2022-03-03 18:25:52]   optimizer: AdamW
+[2022-03-03 18:25:52]   optimizer_amsgrad: False
+[2022-03-03 18:25:52]   optimizer_lr: 3e-05
+[2022-03-03 18:25:52]   optimizer_weight_decay: 0.0004
+[2022-03-03 18:25:52]   seed: 1
+[2022-03-03 18:25:52]   start_epoch: 1
+[2022-03-03 18:25:52]   tensorboard: False
+[2022-03-03 18:25:52]   tensorboard_log_step: 5
+[2022-03-03 18:25:52]   test: False
+[2022-03-03 18:25:52]   test_output_path: ./debug
+[2022-03-03 18:25:52]   test_save_occ: True
+[2022-03-03 18:25:52]   total_epochs: 1
+[2022-03-03 18:25:52]   training_augmentation_ColorJitter: [0.5, 0.5, 0.5, 0.5]
+[2022-03-03 18:25:52]   training_augmentation_RandomAffine: RandomAffineFlowOcc
+[2022-03-03 18:25:52]   training_augmentation_RandomGamma: [0.7, 1.5, True]
+[2022-03-03 18:25:52]   training_augmentation_crop: None
+[2022-03-03 18:25:52]   training_dataset: FlyingChairsOccTrain
+[2022-03-03 18:25:52]   training_dataset_root: /home/fengcheng970pro/Documents/dataset/FlyingChairsOcc/data
+[2022-03-03 18:25:52]   training_key: total_loss
+[2022-03-03 18:25:52]   training_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:25:52]   validation_dataset: KittiComb2015Full
+[2022-03-03 18:25:52]   validation_dataset_root: /home/fengcheng970pro/Documents/dataset/KITTI
+[2022-03-03 18:25:52]   validation_key: epe
+[2022-03-03 18:25:52]   validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_KITTI
+[2022-03-03 18:25:52] ==> Random Seeds
+[2022-03-03 18:25:52]   Python seed: 1
+[2022-03-03 18:25:52]   Numpy seed: 2
+[2022-03-03 18:25:52]   Torch CPU seed: 3
+[2022-03-03 18:25:52]   Torch CUDA seed: 4
+[2022-03-03 18:25:52] ==> Datasets

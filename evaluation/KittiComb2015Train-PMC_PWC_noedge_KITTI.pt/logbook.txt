@@ -1,0 +1,183 @@
+[2022-03-03 18:23:12] ==> Commandline Arguments
+[2022-03-03 18:23:12]   batch_size_train: 4
+[2022-03-03 18:23:12]   batch_size_val: 1
+[2022-03-03 18:23:12]   checkpoint: ./weights/PMC_PWC_noedge_KITTI.pt
+[2022-03-03 18:23:12]   checkpoint_max_to_keep: 20
+[2022-03-03 18:23:12]   checkpoint_mode: resume_from_pretraining
+[2022-03-03 18:23:12]   cuda: True
+[2022-03-03 18:23:12]   div_flow: 0.05
+[2022-03-03 18:23:12]   evaluation: True
+[2022-03-03 18:23:12]   log_path: None
+[2022-03-03 18:23:12]   lr_scheduler: MultiStepLR
+[2022-03-03 18:23:12]   lr_scheduler_gamma: 0.5
+[2022-03-03 18:23:12]   lr_scheduler_milestones: [1, 2, 3]
+[2022-03-03 18:23:12]   model: i_pmca_p
+[2022-03-03 18:23:12]   num_workers: 0
+[2022-03-03 18:23:12]   optimizer: AdamW
+[2022-03-03 18:23:12]   optimizer_amsgrad: False
+[2022-03-03 18:23:12]   optimizer_lr: 3e-05
+[2022-03-03 18:23:12]   optimizer_weight_decay: 0.0004
+[2022-03-03 18:23:12]   seed: 1
+[2022-03-03 18:23:12]   start_epoch: 1
+[2022-03-03 18:23:12]   tensorboard: False
+[2022-03-03 18:23:12]   tensorboard_log_step: 5
+[2022-03-03 18:23:12]   test: False
+[2022-03-03 18:23:12]   test_output_path: ./debug
+[2022-03-03 18:23:12]   test_save_occ: True
+[2022-03-03 18:23:12]   total_epochs: 1
+[2022-03-03 18:23:12]   training_augmentation_ColorJitter: [0.5, 0.5, 0.5, 0.5]
+[2022-03-03 18:23:12]   training_augmentation_RandomAffine: RandomAffineFlowOcc
+[2022-03-03 18:23:12]   training_augmentation_RandomGamma: [0.7, 1.5, True]
+[2022-03-03 18:23:12]   training_augmentation_crop: None
+[2022-03-03 18:23:12]   training_dataset: FlyingChairsOccTrain
+[2022-03-03 18:23:12]   training_dataset_root: /home/fengcheng970pro/Documents/dataset/FlyingChairsOcc/data
+[2022-03-03 18:23:12]   training_key: total_loss
+[2022-03-03 18:23:12]   training_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:23:12]   validation_dataset: KittiComb2015Train
+[2022-03-03 18:23:12]   validation_dataset_root: /home/fengcheng970pro/Documents/dataset/KITTI
+[2022-03-03 18:23:12]   validation_key: epe
+[2022-03-03 18:23:12]   validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample
+[2022-03-03 18:23:12] ==> Random Seeds
+[2022-03-03 18:23:12]   Python seed: 1
+[2022-03-03 18:23:12]   Numpy seed: 2
+[2022-03-03 18:23:12]   Torch CPU seed: 3
+[2022-03-03 18:23:12]   Torch CUDA seed: 4
+[2022-03-03 18:23:12] ==> Datasets
+[2022-03-03 18:23:12]   Validation Dataset: KittiComb2015Train
+[2022-03-03 18:23:12]     input1: [3, 370, 1224]
+[2022-03-03 18:23:12]     input2: [3, 370, 1224]
+[2022-03-03 18:23:12]     input_valid: [1, 370, 1224]
+[2022-03-03 18:23:12]     target1: [2, 370, 1224]
+[2022-03-03 18:23:12]     target2: [2, 370, 1224]
+[2022-03-03 18:23:12]     num_examples: 160
+[2022-03-03 18:23:12] ==> Model
+[2022-03-03 18:23:12]   i_pmca_p
+[2022-03-03 18:23:15]   parameters: 7860333
+[2022-03-03 18:23:15]   Loaded ckpt from ./weights/PMC_PWC_noedge_KITTI.pt
+[2022-03-03 18:23:15] ==> Cudnn
+[2022-03-03 18:23:15]   torch.backends.cudnn.benchmark: False
+[2022-03-03 18:23:15] ==> Evaluation
+[2022-03-03 18:23:15]   start_epoch: 1
+[2022-03-03 18:23:15]   total_epochs: 1
+[2022-03-03 18:24:14] ==> Commandline Arguments
+[2022-03-03 18:24:14]   batch_size_train: 4
+[2022-03-03 18:24:14]   batch_size_val: 1
+[2022-03-03 18:24:14]   checkpoint: ./weights/PMC_PWC_noedge_KITTI.pt
+[2022-03-03 18:24:14]   checkpoint_max_to_keep: 20
+[2022-03-03 18:24:14]   checkpoint_mode: resume_from_pretraining
+[2022-03-03 18:24:14]   cuda: True
+[2022-03-03 18:24:14]   div_flow: 0.05
+[2022-03-03 18:24:14]   evaluation: True
+[2022-03-03 18:24:14]   log_path: None
+[2022-03-03 18:24:14]   lr_scheduler: MultiStepLR
+[2022-03-03 18:24:14]   lr_scheduler_gamma: 0.5
+[2022-03-03 18:24:14]   lr_scheduler_milestones: [1, 2, 3]
+[2022-03-03 18:24:14]   model: i_pmca_p
+[2022-03-03 18:24:14]   num_workers: 0
+[2022-03-03 18:24:14]   optimizer: AdamW
+[2022-03-03 18:24:14]   optimizer_amsgrad: False
+[2022-03-03 18:24:14]   optimizer_lr: 3e-05
+[2022-03-03 18:24:14]   optimizer_weight_decay: 0.0004
+[2022-03-03 18:24:14]   seed: 1
+[2022-03-03 18:24:14]   start_epoch: 1
+[2022-03-03 18:24:14]   tensorboard: False
+[2022-03-03 18:24:14]   tensorboard_log_step: 5
+[2022-03-03 18:24:14]   test: False
+[2022-03-03 18:24:14]   test_output_path: ./debug
+[2022-03-03 18:24:14]   test_save_occ: True
+[2022-03-03 18:24:14]   total_epochs: 1
+[2022-03-03 18:24:14]   training_augmentation_ColorJitter: [0.5, 0.5, 0.5, 0.5]
+[2022-03-03 18:24:14]   training_augmentation_RandomAffine: RandomAffineFlowOcc
+[2022-03-03 18:24:14]   training_augmentation_RandomGamma: [0.7, 1.5, True]
+[2022-03-03 18:24:14]   training_augmentation_crop: None
+[2022-03-03 18:24:14]   training_dataset: FlyingChairsOccTrain
+[2022-03-03 18:24:14]   training_dataset_root: /home/fengcheng970pro/Documents/dataset/FlyingChairsOcc/data
+[2022-03-03 18:24:14]   training_key: total_loss
+[2022-03-03 18:24:14]   training_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:24:14]   validation_dataset: KittiComb2015Train
+[2022-03-03 18:24:14]   validation_dataset_root: /home/fengcheng970pro/Documents/dataset/KITTI
+[2022-03-03 18:24:14]   validation_key: epe
+[2022-03-03 18:24:14]   validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample
+[2022-03-03 18:24:14] ==> Random Seeds
+[2022-03-03 18:24:14]   Python seed: 1
+[2022-03-03 18:24:14]   Numpy seed: 2
+[2022-03-03 18:24:14]   Torch CPU seed: 3
+[2022-03-03 18:24:14]   Torch CUDA seed: 4
+[2022-03-03 18:24:14] ==> Datasets
+[2022-03-03 18:24:14]   Validation Dataset: KittiComb2015Train
+[2022-03-03 18:24:15]     input1: [3, 370, 1224]
+[2022-03-03 18:24:15]     input2: [3, 370, 1224]
+[2022-03-03 18:24:15]     input_valid: [1, 370, 1224]
+[2022-03-03 18:24:15]     target1: [2, 370, 1224]
+[2022-03-03 18:24:15]     target2: [2, 370, 1224]
+[2022-03-03 18:24:15]     num_examples: 160
+[2022-03-03 18:24:15] ==> Model
+[2022-03-03 18:24:15]   i_pmca_p
+[2022-03-03 18:24:18]   parameters: 7860333
+[2022-03-03 18:24:18]   Loaded ckpt from ./weights/PMC_PWC_noedge_KITTI.pt
+[2022-03-03 18:24:18] ==> Cudnn
+[2022-03-03 18:24:18]   torch.backends.cudnn.benchmark: False
+[2022-03-03 18:24:18] ==> Evaluation
+[2022-03-03 18:24:18]   start_epoch: 1
+[2022-03-03 18:24:18]   total_epochs: 1
+[2022-03-03 18:25:01] ==> Commandline Arguments
+[2022-03-03 18:25:01]   batch_size_train: 4
+[2022-03-03 18:25:01]   batch_size_val: 1
+[2022-03-03 18:25:01]   checkpoint: ./weights/PMC_PWC_noedge_KITTI.pt
+[2022-03-03 18:25:01]   checkpoint_max_to_keep: 20
+[2022-03-03 18:25:01]   checkpoint_mode: resume_from_pretraining
+[2022-03-03 18:25:01]   cuda: True
+[2022-03-03 18:25:01]   div_flow: 0.05
+[2022-03-03 18:25:01]   evaluation: True
+[2022-03-03 18:25:01]   log_path: None
+[2022-03-03 18:25:01]   lr_scheduler: MultiStepLR
+[2022-03-03 18:25:01]   lr_scheduler_gamma: 0.5
+[2022-03-03 18:25:01]   lr_scheduler_milestones: [1, 2, 3]
+[2022-03-03 18:25:01]   model: i_pmca_p
+[2022-03-03 18:25:01]   num_workers: 0
+[2022-03-03 18:25:01]   optimizer: AdamW
+[2022-03-03 18:25:01]   optimizer_amsgrad: False
+[2022-03-03 18:25:01]   optimizer_lr: 3e-05
+[2022-03-03 18:25:01]   optimizer_weight_decay: 0.0004
+[2022-03-03 18:25:01]   seed: 1
+[2022-03-03 18:25:01]   start_epoch: 1
+[2022-03-03 18:25:01]   tensorboard: False
+[2022-03-03 18:25:01]   tensorboard_log_step: 5
+[2022-03-03 18:25:01]   test: False
+[2022-03-03 18:25:01]   test_output_path: ./debug
+[2022-03-03 18:25:01]   test_save_occ: True
+[2022-03-03 18:25:01]   total_epochs: 1
+[2022-03-03 18:25:01]   training_augmentation_ColorJitter: [0.5, 0.5, 0.5, 0.5]
+[2022-03-03 18:25:01]   training_augmentation_RandomAffine: RandomAffineFlowOcc
+[2022-03-03 18:25:01]   training_augmentation_RandomGamma: [0.7, 1.5, True]
+[2022-03-03 18:25:01]   training_augmentation_crop: None
+[2022-03-03 18:25:01]   training_dataset: FlyingChairsOccTrain
+[2022-03-03 18:25:01]   training_dataset_root: /home/fengcheng970pro/Documents/dataset/FlyingChairsOcc/data
+[2022-03-03 18:25:01]   training_key: total_loss
+[2022-03-03 18:25:01]   training_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:25:01]   validation_dataset: KittiComb2015Train
+[2022-03-03 18:25:01]   validation_dataset_root: /home/fengcheng970pro/Documents/dataset/KITTI
+[2022-03-03 18:25:01]   validation_key: epe
+[2022-03-03 18:25:01]   validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_KITTI
+[2022-03-03 18:25:01] ==> Random Seeds
+[2022-03-03 18:25:01]   Python seed: 1
+[2022-03-03 18:25:01]   Numpy seed: 2
+[2022-03-03 18:25:01]   Torch CPU seed: 3
+[2022-03-03 18:25:01]   Torch CUDA seed: 4
+[2022-03-03 18:25:01] ==> Datasets
+[2022-03-03 18:25:01]   Validation Dataset: KittiComb2015Train
+[2022-03-03 18:25:02]     input1: [3, 370, 1224]
+[2022-03-03 18:25:02]     input2: [3, 370, 1224]
+[2022-03-03 18:25:02]     input_valid: [1, 370, 1224]
+[2022-03-03 18:25:02]     target1: [2, 370, 1224]
+[2022-03-03 18:25:02]     target2: [2, 370, 1224]
+[2022-03-03 18:25:02]     num_examples: 160
+[2022-03-03 18:25:02] ==> Model
+[2022-03-03 18:25:02]   i_pmca_p
+[2022-03-03 18:25:05]   parameters: 7860333
+[2022-03-03 18:25:05]   Loaded ckpt from ./weights/PMC_PWC_noedge_KITTI.pt
+[2022-03-03 18:25:05] ==> Cudnn
+[2022-03-03 18:25:05]   torch.backends.cudnn.benchmark: False
+[2022-03-03 18:25:05] ==> Evaluation
+[2022-03-03 18:25:05]   start_epoch: 1
+[2022-03-03 18:25:05]   total_epochs: 1

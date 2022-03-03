@@ -1,0 +1,231 @@
+[2022-03-03 15:57:22] ==> Commandline Arguments
+[2022-03-03 15:57:22]   batch_size_train: 4
+[2022-03-03 15:57:22]   batch_size_val: 1
+[2022-03-03 15:57:22]   checkpoint: ./weights/PMC_PWC_edge.pt
+[2022-03-03 15:57:22]   checkpoint_max_to_keep: 20
+[2022-03-03 15:57:22]   checkpoint_mode: resume_from_pretraining
+[2022-03-03 15:57:22]   cuda: True
+[2022-03-03 15:57:22]   div_flow: 0.05
+[2022-03-03 15:57:22]   evaluation: True
+[2022-03-03 15:57:22]   log_path: None
+[2022-03-03 15:57:22]   lr_scheduler: MultiStepLR
+[2022-03-03 15:57:22]   lr_scheduler_gamma: 0.5
+[2022-03-03 15:57:22]   lr_scheduler_milestones: [1, 2, 3]
+[2022-03-03 15:57:22]   model: IRR_PWC
+[2022-03-03 15:57:22]   num_workers: 0
+[2022-03-03 15:57:22]   optimizer: AdamW
+[2022-03-03 15:57:22]   optimizer_amsgrad: False
+[2022-03-03 15:57:22]   optimizer_lr: 3e-05
+[2022-03-03 15:57:22]   optimizer_weight_decay: 0.0004
+[2022-03-03 15:57:22]   seed: 1
+[2022-03-03 15:57:22]   start_epoch: 1
+[2022-03-03 15:57:22]   tensorboard: False
+[2022-03-03 15:57:22]   tensorboard_log_step: 5
+[2022-03-03 15:57:22]   test: False
+[2022-03-03 15:57:22]   test_output_path: ./debug
+[2022-03-03 15:57:22]   test_save_occ: True
+[2022-03-03 15:57:22]   total_epochs: 1
+[2022-03-03 15:57:22]   training_augmentation_ColorJitter: [0.5, 0.5, 0.5, 0.5]
+[2022-03-03 15:57:22]   training_augmentation_RandomAffine: RandomAffineFlowOcc
+[2022-03-03 15:57:22]   training_augmentation_RandomGamma: [0.7, 1.5, True]
+[2022-03-03 15:57:22]   training_augmentation_crop: None
+[2022-03-03 15:57:22]   training_dataset: FlyingChairsOccTrain
+[2022-03-03 15:57:22]   training_dataset_root: /home/fengcheng970pro/Documents/dataset/FlyingChairsOcc/data
+[2022-03-03 15:57:22]   training_key: total_loss
+[2022-03-03 15:57:22]   training_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 15:57:22]   validation_dataset: SintelTrainingCleanFull
+[2022-03-03 15:57:22]   validation_dataset_root: /home/fengcheng970pro/Documents/dataset/MPI-Sintel-complete
+[2022-03-03 15:57:22]   validation_key: epe
+[2022-03-03 15:57:22]   validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 15:57:22] ==> Random Seeds
+[2022-03-03 15:57:22]   Python seed: 1
+[2022-03-03 15:57:22]   Numpy seed: 2
+[2022-03-03 15:57:22]   Torch CPU seed: 3
+[2022-03-03 15:57:22]   Torch CUDA seed: 4
+[2022-03-03 15:57:22] ==> Datasets
+[2022-03-03 15:57:22]   Validation Dataset: SintelTrainingCleanFull
+[2022-03-03 15:57:22]     basedir: training/clean/alley_1
+[2022-03-03 15:57:22]     input1: [3, 436, 1024]
+[2022-03-03 15:57:22]     input2: [3, 436, 1024]
+[2022-03-03 15:57:22]     target1: [2, 436, 1024]
+[2022-03-03 15:57:22]     target_occ1: [1, 436, 1024]
+[2022-03-03 15:57:22]     num_examples: 1041
+[2022-03-03 15:57:22] ==> Model
+[2022-03-03 15:57:22]   IRR_PWC
+[2022-03-03 15:57:38] ==> Commandline Arguments
+[2022-03-03 15:57:38]   batch_size_train: 4
+[2022-03-03 15:57:38]   batch_size_val: 1
+[2022-03-03 15:57:38]   checkpoint: ./weights/PMC_PWC_edge.pt
+[2022-03-03 15:57:38]   checkpoint_max_to_keep: 20
+[2022-03-03 15:57:38]   checkpoint_mode: resume_from_pretraining
+[2022-03-03 15:57:38]   cuda: True
+[2022-03-03 15:57:38]   div_flow: 0.05
+[2022-03-03 15:57:38]   evaluation: True
+[2022-03-03 15:57:38]   log_path: None
+[2022-03-03 15:57:38]   lr_scheduler: MultiStepLR
+[2022-03-03 15:57:38]   lr_scheduler_gamma: 0.5
+[2022-03-03 15:57:38]   lr_scheduler_milestones: [1, 2, 3]
+[2022-03-03 15:57:38]   model: i_pmca_p
+[2022-03-03 15:57:38]   num_workers: 0
+[2022-03-03 15:57:38]   optimizer: AdamW
+[2022-03-03 15:57:38]   optimizer_amsgrad: False
+[2022-03-03 15:57:38]   optimizer_lr: 3e-05
+[2022-03-03 15:57:38]   optimizer_weight_decay: 0.0004
+[2022-03-03 15:57:38]   seed: 1
+[2022-03-03 15:57:38]   start_epoch: 1
+[2022-03-03 15:57:38]   tensorboard: False
+[2022-03-03 15:57:38]   tensorboard_log_step: 5
+[2022-03-03 15:57:38]   test: False
+[2022-03-03 15:57:38]   test_output_path: ./debug
+[2022-03-03 15:57:38]   test_save_occ: True
+[2022-03-03 15:57:38]   total_epochs: 1
+[2022-03-03 15:57:38]   training_augmentation_ColorJitter: [0.5, 0.5, 0.5, 0.5]
+[2022-03-03 15:57:38]   training_augmentation_RandomAffine: RandomAffineFlowOcc
+[2022-03-03 15:57:38]   training_augmentation_RandomGamma: [0.7, 1.5, True]
+[2022-03-03 15:57:38]   training_augmentation_crop: None
+[2022-03-03 15:57:38]   training_dataset: FlyingChairsOccTrain
+[2022-03-03 15:57:38]   training_dataset_root: /home/fengcheng970pro/Documents/dataset/FlyingChairsOcc/data
+[2022-03-03 15:57:38]   training_key: total_loss
+[2022-03-03 15:57:38]   training_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 15:57:38]   validation_dataset: SintelTrainingCleanFull
+[2022-03-03 15:57:38]   validation_dataset_root: /home/fengcheng970pro/Documents/dataset/MPI-Sintel-complete
+[2022-03-03 15:57:38]   validation_key: epe
+[2022-03-03 15:57:38]   validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 15:57:38] ==> Random Seeds
+[2022-03-03 15:57:38]   Python seed: 1
+[2022-03-03 15:57:38]   Numpy seed: 2
+[2022-03-03 15:57:38]   Torch CPU seed: 3
+[2022-03-03 15:57:38]   Torch CUDA seed: 4
+[2022-03-03 15:57:38] ==> Datasets
+[2022-03-03 15:57:38]   Validation Dataset: SintelTrainingCleanFull
+[2022-03-03 15:57:38]     basedir: training/clean/alley_1
+[2022-03-03 15:57:38]     input1: [3, 436, 1024]
+[2022-03-03 15:57:38]     input2: [3, 436, 1024]
+[2022-03-03 15:57:38]     target1: [2, 436, 1024]
+[2022-03-03 15:57:38]     target_occ1: [1, 436, 1024]
+[2022-03-03 15:57:38]     num_examples: 1041
+[2022-03-03 15:57:38] ==> Model
+[2022-03-03 15:57:38]   i_pmca_p
+[2022-03-03 15:57:42]   parameters: 7860333
+[2022-03-03 15:57:42]   Loaded ckpt from ./weights/PMC_PWC_edge.pt
+[2022-03-03 15:57:42] ==> Cudnn
+[2022-03-03 15:57:42]   torch.backends.cudnn.benchmark: False
+[2022-03-03 15:57:42] ==> Evaluation
+[2022-03-03 15:57:42]   start_epoch: 1
+[2022-03-03 15:57:42]   total_epochs: 1
+[2022-03-03 16:01:18] epe: 1.5273, F1: 0.7529
+[2022-03-03 18:11:16] ==> Commandline Arguments
+[2022-03-03 18:11:16]   batch_size_train: 4
+[2022-03-03 18:11:16]   batch_size_val: 1
+[2022-03-03 18:11:16]   checkpoint: ./weights/PMC_PWC_edge.pt
+[2022-03-03 18:11:16]   checkpoint_max_to_keep: 20
+[2022-03-03 18:11:16]   checkpoint_mode: resume_from_pretraining
+[2022-03-03 18:11:16]   cuda: True
+[2022-03-03 18:11:16]   div_flow: 0.05
+[2022-03-03 18:11:16]   evaluation: True
+[2022-03-03 18:11:16]   log_path: None
+[2022-03-03 18:11:16]   lr_scheduler: MultiStepLR
+[2022-03-03 18:11:16]   lr_scheduler_gamma: 0.5
+[2022-03-03 18:11:16]   lr_scheduler_milestones: [1, 2, 3]
+[2022-03-03 18:11:16]   model: i_pmca_p
+[2022-03-03 18:11:16]   num_workers: 0
+[2022-03-03 18:11:16]   optimizer: AdamW
+[2022-03-03 18:11:16]   optimizer_amsgrad: False
+[2022-03-03 18:11:16]   optimizer_lr: 3e-05
+[2022-03-03 18:11:16]   optimizer_weight_decay: 0.0004
+[2022-03-03 18:11:16]   seed: 1
+[2022-03-03 18:11:16]   start_epoch: 1
+[2022-03-03 18:11:16]   tensorboard: False
+[2022-03-03 18:11:16]   tensorboard_log_step: 5
+[2022-03-03 18:11:16]   test: False
+[2022-03-03 18:11:16]   test_output_path: ./debug
+[2022-03-03 18:11:16]   test_save_occ: True
+[2022-03-03 18:11:16]   total_epochs: 1
+[2022-03-03 18:11:16]   training_augmentation_ColorJitter: [0.5, 0.5, 0.5, 0.5]
+[2022-03-03 18:11:16]   training_augmentation_RandomAffine: RandomAffineFlowOcc
+[2022-03-03 18:11:16]   training_augmentation_RandomGamma: [0.7, 1.5, True]
+[2022-03-03 18:11:16]   training_augmentation_crop: None
+[2022-03-03 18:11:16]   training_dataset: FlyingChairsOccTrain
+[2022-03-03 18:11:16]   training_dataset_root: /home/fengcheng970pro/Documents/dataset/FlyingChairsOcc/data
+[2022-03-03 18:11:16]   training_key: total_loss
+[2022-03-03 18:11:16]   training_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:11:16]   validation_dataset: SintelTrainingCleanFull
+[2022-03-03 18:11:16]   validation_dataset_root: /home/fengcheng970pro/Documents/dataset/MPI-Sintel-complete
+[2022-03-03 18:11:16]   validation_key: epe
+[2022-03-03 18:11:16]   validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:11:16] ==> Random Seeds
+[2022-03-03 18:11:16]   Python seed: 1
+[2022-03-03 18:11:16]   Numpy seed: 2
+[2022-03-03 18:11:16]   Torch CPU seed: 3
+[2022-03-03 18:11:16]   Torch CUDA seed: 4
+[2022-03-03 18:11:16] ==> Datasets
+[2022-03-03 18:11:16]   Validation Dataset: SintelTrainingCleanFull
+[2022-03-03 18:11:16]     basedir: training/clean/alley_1
+[2022-03-03 18:11:16]     input1: [3, 436, 1024]
+[2022-03-03 18:11:16]     input2: [3, 436, 1024]
+[2022-03-03 18:11:16]     target1: [2, 436, 1024]
+[2022-03-03 18:11:16]     target_occ1: [1, 436, 1024]
+[2022-03-03 18:11:16]     num_examples: 1041
+[2022-03-03 18:11:16] ==> Model
+[2022-03-03 18:11:16]   i_pmca_p
+[2022-03-03 18:11:50] ==> Commandline Arguments
+[2022-03-03 18:11:50]   batch_size_train: 4
+[2022-03-03 18:11:50]   batch_size_val: 1
+[2022-03-03 18:11:50]   checkpoint: ./weights/PMC_PWC_edge.pt
+[2022-03-03 18:11:50]   checkpoint_max_to_keep: 20
+[2022-03-03 18:11:50]   checkpoint_mode: resume_from_pretraining
+[2022-03-03 18:11:50]   cuda: True
+[2022-03-03 18:11:50]   div_flow: 0.05
+[2022-03-03 18:11:50]   evaluation: True
+[2022-03-03 18:11:50]   log_path: None
+[2022-03-03 18:11:50]   lr_scheduler: MultiStepLR
+[2022-03-03 18:11:50]   lr_scheduler_gamma: 0.5
+[2022-03-03 18:11:50]   lr_scheduler_milestones: [1, 2, 3]
+[2022-03-03 18:11:50]   model: i_pmca_p
+[2022-03-03 18:11:50]   num_workers: 0
+[2022-03-03 18:11:50]   optimizer: AdamW
+[2022-03-03 18:11:50]   optimizer_amsgrad: False
+[2022-03-03 18:11:50]   optimizer_lr: 3e-05
+[2022-03-03 18:11:50]   optimizer_weight_decay: 0.0004
+[2022-03-03 18:11:50]   seed: 1
+[2022-03-03 18:11:50]   start_epoch: 1
+[2022-03-03 18:11:50]   tensorboard: False
+[2022-03-03 18:11:50]   tensorboard_log_step: 5
+[2022-03-03 18:11:50]   test: False
+[2022-03-03 18:11:50]   test_output_path: ./debug
+[2022-03-03 18:11:50]   test_save_occ: True
+[2022-03-03 18:11:50]   total_epochs: 1
+[2022-03-03 18:11:50]   training_augmentation_ColorJitter: [0.5, 0.5, 0.5, 0.5]
+[2022-03-03 18:11:50]   training_augmentation_RandomAffine: RandomAffineFlowOcc
+[2022-03-03 18:11:50]   training_augmentation_RandomGamma: [0.7, 1.5, True]
+[2022-03-03 18:11:50]   training_augmentation_crop: None
+[2022-03-03 18:11:50]   training_dataset: FlyingChairsOccTrain
+[2022-03-03 18:11:50]   training_dataset_root: /home/fengcheng970pro/Documents/dataset/FlyingChairsOcc/data
+[2022-03-03 18:11:50]   training_key: total_loss
+[2022-03-03 18:11:50]   training_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:11:50]   validation_dataset: SintelTrainingCleanFull
+[2022-03-03 18:11:50]   validation_dataset_root: /home/fengcheng970pro/Documents/dataset/MPI-Sintel-complete
+[2022-03-03 18:11:50]   validation_key: epe
+[2022-03-03 18:11:50]   validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+[2022-03-03 18:11:50] ==> Random Seeds
+[2022-03-03 18:11:50]   Python seed: 1
+[2022-03-03 18:11:50]   Numpy seed: 2
+[2022-03-03 18:11:50]   Torch CPU seed: 3
+[2022-03-03 18:11:50]   Torch CUDA seed: 4
+[2022-03-03 18:11:50] ==> Datasets
+[2022-03-03 18:11:50]   Validation Dataset: SintelTrainingCleanFull
+[2022-03-03 18:11:50]     basedir: training/clean/alley_1
+[2022-03-03 18:11:50]     input1: [3, 436, 1024]
+[2022-03-03 18:11:50]     input2: [3, 436, 1024]
+[2022-03-03 18:11:50]     target1: [2, 436, 1024]
+[2022-03-03 18:11:50]     target_occ1: [1, 436, 1024]
+[2022-03-03 18:11:50]     num_examples: 1041
+[2022-03-03 18:11:50] ==> Model
+[2022-03-03 18:11:50]   i_pmca_p
+[2022-03-03 18:11:53]   parameters: 7860333
+[2022-03-03 18:11:54]   Loaded ckpt from ./weights/PMC_PWC_edge.pt
+[2022-03-03 18:11:54] ==> Cudnn
+[2022-03-03 18:11:54]   torch.backends.cudnn.benchmark: False
+[2022-03-03 18:11:54] ==> Evaluation
+[2022-03-03 18:11:54]   start_epoch: 1
+[2022-03-03 18:11:54]   total_epochs: 1

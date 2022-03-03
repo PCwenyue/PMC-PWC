@@ -1,0 +1,38 @@
+batch_size_train: 4
+batch_size_val: 1
+checkpoint: ./weights/PMC_PWC_edge.pt
+checkpoint_max_to_keep: 20
+checkpoint_mode: resume_from_pretraining
+cuda: True
+div_flow: 0.05
+evaluation: True
+log_path: None
+lr_scheduler: MultiStepLR
+lr_scheduler_gamma: 0.5
+lr_scheduler_milestones: [1, 2, 3]
+model: i_pmca_p
+num_workers: 0
+optimizer: AdamW
+optimizer_amsgrad: False
+optimizer_lr: 3e-05
+optimizer_weight_decay: 0.0004
+seed: 1
+start_epoch: 1
+tensorboard: False
+tensorboard_log_step: 5
+test: False
+test_output_path: ./debug
+test_save_occ: True
+total_epochs: 1
+training_augmentation_ColorJitter: [0.5, 0.5, 0.5, 0.5]
+training_augmentation_RandomAffine: RandomAffineFlowOcc
+training_augmentation_RandomGamma: [0.7, 1.5, True]
+training_augmentation_crop: None
+training_dataset: FlyingChairsOccTrain
+training_dataset_root: /home/fengcheng970pro/Documents/dataset/FlyingChairsOcc/data
+training_key: total_loss
+training_loss: MultiScaleEPE_PWC_Bi_Occ_upsample_edge
+validation_dataset: SintelTrainingCombFull
+validation_dataset_root: /home/fengcheng970pro/Documents/dataset/MPI-Sintel-complete
+validation_key: epe
+validation_loss: MultiScaleEPE_PWC_Bi_Occ_upsample
