@@ -1,3 +1,11 @@
+"Parallel multiscale context-based edge-preserving optical flow estimation with occlusion detection"
+
+author:CongxuanZhang, ChengFeng, ZhenChen, WeimingHu, MingLi
+Key Laboratory of Nondestructive Testing, Ministry of Education, Nanchang Hangkong University, Nanchang 330063, China
+Institute of Automation, Chinese Academy of Sciences, Beijing 100190, China
+
+paper link:https://www.sciencedirect.com/science/article/pii/S0923596521002770?via%3Dihub
+
 Evaluation (PMC_PWC in MPI-Sintel Training Full)
 sh scripts/validation.sh i_pmca_p ./weights/PMC_PWC_SINTEL.pt SintelTrainingCombFull /path/MPI-Sintel-complete MultiScaleEPE_PWC_Bi_Occ_upsample True
 
